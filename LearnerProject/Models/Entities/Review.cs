@@ -8,7 +8,7 @@ namespace LearnerProject.Models.Entities
     public class Review
     {
         public int ReviewId { get; set; }
-        public string CourseId { get; set; }
+        public int CourseId { get; set; }
 
         public virtual Course Course { get; set; }
 
